@@ -9,7 +9,7 @@ pipeline {
 		   }  }
 	  stage('Cppcheck'){
 		  steps{
-			  publishCppcheck()
+			  publishCppcheck allowNoReport: true, pattern: 'cppcheck-result.xml'
 		  }}
   }
 }
