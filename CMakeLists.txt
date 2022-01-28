@@ -4,5 +4,5 @@ project("HelloWorld")
 
 add_executable("${PROJECT_NAME}" main.cpp  day1.cpp StringHelper.cpp FileLoader.cpp )
 
-install(TARGETS "${PROJECT_NAME}" DESTINATION bin)
-install(FILES "main.cpp" DESTINATION src)
+//install(TARGETS "${PROJECT_NAME}" DESTINATION bin)
+//install(FILES "main.cpp" DESTINATION src)
